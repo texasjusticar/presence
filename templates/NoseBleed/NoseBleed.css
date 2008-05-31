@@ -1,0 +1,662 @@
+/*
+	The original NoseBleed v1.14 skin for phpBB version 2+
+	Created by Mike Lothar (c) 2004 - 2006
+	http://www.mikelothar.com
+	Do not remove this note
+*/
+
+html {
+	height: 100%}
+	
+body {
+	height: 100%;
+	background-color: #f3f3f3;
+	text-align: center;
+	padding: 0;
+	margin: 0}
+	
+table {
+	width: 100%;
+	padding: 0}
+
+form, .checkbox, input.radio, .helpline, p {
+	margin: 0;
+	padding: 0;
+	border: 0}
+	
+input.button {
+	margin: 0;
+	padding: 1px 3px;
+	background-color: #ddd;
+	border: 1px outset}
+
+
+
+.avatar img {
+	background-color: #fff;
+	border: 3px solid #fff}
+	
+html>body .avatar img {
+	padding: 3px;
+	background-color: #fff;
+	border: 1px solid #dbdbdb}
+
+
+
+#forum {
+	width: 780px;
+	height: 100%;
+	background-color: #fff;
+	margin: 0 auto}
+	
+#bodyline {
+	width: 717px;
+	padding: 10px 0;
+	vertical-align: top;
+	text-align: left}
+
+
+
+#top_image {
+	text-align: center}
+
+#top_image img {
+	border: 0;
+	width: 717px;
+	height: 231px}
+
+
+
+#menu {
+	height: 18px;
+	line-height: 18px;
+	padding: 0 3px 1px}
+	
+#menu #left a {
+	padding-right: 10px}
+	
+#menu #right a {
+	padding-left: 10px}
+
+.mainmenu {
+	line-height: 18px}
+
+
+
+
+div.spacing {
+	height: 10px;
+	clear: both}
+
+
+
+.postbuttons img {
+	border: 0;
+	margin-right: 10px}
+
+
+
+.pad0-0-4 {
+	padding: 0 0 4px}
+	
+.pad0-0-10 {
+	padding: 0 0 10px}
+
+.pad4 {
+	padding: 4px}
+	
+.pad25 {
+	padding: 25px}
+
+.pad60 {
+	padding: 60px}
+
+div.timezone {
+	padding: 0 3px}
+
+div.copyright {
+	padding: 5px}
+
+.quote, .code {
+	margin: 10px;
+	padding: 10px}
+
+.quote .inside_quote, .code .inside_code {
+	padding: 10px}
+
+div.hr {
+	height: 1px;
+	background-color: #ccc;
+	margin: 5px 0}
+	
+div.hr hr {
+	display: none}
+
+
+
+input.post, textarea.post, select, input.postfile {
+	margin: 0;
+	border: 1px solid #666}
+
+input.post, textarea.post, input.postfile {
+	padding: 2px 3px}
+
+input.post {
+	height: 19px}
+
+html>body input.post {
+	height: 12px}
+
+.helpline {
+	background-color: #ebebeb}
+
+
+
+.postmini {
+	width: 25px}
+	
+.postsmall {
+	width: 90px}
+	
+.postmedium {
+	width: 150px}
+	
+.postbig {
+	width: 225px}
+	
+.postbiggest {
+	width: 450px}
+
+
+
+.block {
+	display: block}
+
+.clear {
+	clear: both}
+
+.left {
+	float: left;
+	text-align: left}
+	
+.right {
+	float: right;
+	text-align: right}
+	
+.txtcenter {
+	text-align: center}
+
+.txtmiddle {
+	text-align: center;
+	vertical-align: middle}
+
+.txtright {
+	text-align: right}
+
+.txttop {
+	vertical-align: top}
+	
+.txtbottom {
+	vertical-align: bottom}
+	
+.txtleft {
+	text-align: left}
+	
+
+	
+td.row1	{
+	background-color: #f3f3f3}
+	
+td.row2 {
+	background-color: #ebebeb}
+	
+td.row3 {
+	background-color: #e3e3e3}
+
+
+
+td, th, input, select, textarea, .message {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none;
+	text-decoration: none;
+	color: #111;
+	font-size: 10px;
+	line-height: 13px}
+
+td a {
+	color: #9f0002;
+	text-decoration: underline}	
+
+td a:hover {
+	color: #9f0002;
+	text-decoration: none}
+
+tr.lines_1 th .nav, tr.lines_3 th .nav, .nav {
+	font-size: 11px;
+	line-height: 13px;
+	font-weight: bold}		
+
+tr.lines_1 th .nav a, tr.lines_3 th .nav a, .nav a {
+	color: #9f0002;
+	text-decoration: none}
+
+tr.lines_1 th .nav a:hover, tr.lines_3 th .nav a:hover, .nav a:hover {
+	color: #9f0002;
+	text-decoration: underline}
+
+.code {
+	background-color: #fefefe;
+	border: 2px solid #d6d6d6;
+	font-family: Courier, 'Courier New', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none;
+	text-decoration: none;
+	color: #0000b4;
+	font-size: 11px;
+	line-height: 13px}
+
+.code a {
+	color: #0000b4;
+	text-decoration: underline}	
+
+.code a:hover {
+	color: #0000b4;
+	text-decoration: none}
+
+.quote {
+	background-color: #fefefe;
+	border: 2px solid #d6d6d6;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none;
+	text-decoration: none;
+	color: #555;
+	font-size: 10px;
+	line-height: 13px}
+
+.quote a {
+	color: #555;
+	text-decoration: underline}	
+
+.quote a:hover {
+	color: #555;
+	text-decoration: none}
+	
+.edited {
+	font-style: italic}
+
+
+
+
+tr.toplines th {
+	line-height: 24px;
+	height: 24px;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid #000;
+	border-width: 1px 0;
+	padding: 0 10px}
+
+tr.lines_1 th {
+	border: 1px solid #000;
+	border-width: 1px 0;
+	padding: 5px 2px 6px}
+
+tr.lines_3 th {
+	border: 1px solid #000;
+	border-width: 1px 0;
+	padding: 3px 2px}
+
+
+
+table.index_body td.one img {
+	width: 46px;
+	height: 25px}
+	
+table.index_body td.one {
+	padding: 4px;
+	text-align: center}
+	
+table.index_body td.two {
+	padding: 4px;
+	width: 100%}
+	
+table.index_body td.three {
+	padding: 4px;
+	text-align: center;
+	white-space: nowrap}
+
+table.index_body_icons td img {
+	vertical-align: middle}
+	
+table.index_body_icons td {
+	white-space: nowrap;
+	text-align: center}
+
+
+
+table.groupcp td.one {
+	padding: 4px 7px;
+	width: 150px;
+	height: 26px}
+	
+table.groupcp td.two {
+	padding: 4px 5px 4px 4px}
+	
+table.groupcp td.three {
+	padding: 4px 7px;
+	height: 26px}
+
+
+
+table.memberlist td.one {
+	padding: 4px 7px;
+	height: 26px}
+
+
+
+table.modcp td.one img {
+	width: 19px;
+	height: 18px}
+	
+table.modcp td.one {
+	padding: 4px;
+	text-align: center}
+	
+table.modcp td.two {
+	padding: 8px 4px;
+	width: 100%}
+	
+table.modcp td.three {
+	padding: 4px;
+	text-align: center;
+	white-space: nowrap}
+
+table.modcp td.four {
+	padding: 4px;
+	white-space: nowrap;
+	width: 150px}
+
+table.modcp td.five {
+	padding: 4px}
+
+table.modcp td.six {
+	padding: 4px 7px;
+	vertical-align: top;
+	font-weight: bold;
+	text-align: left;
+	width: 150px;
+	height: 100px}
+	
+table.modcp td.seven {
+	padding: 4px 7px;
+	vertical-align: top;
+	text-align: left;
+	width: 470px}
+	
+table.modcp td.eight {
+	padding: 4px 7px}
+
+table.modcp td.nine {
+	padding: 4px 7px;
+	height: 18px;
+	line-height: 18px}
+
+
+
+table.posting_body td.one {
+	padding: 4px 7px;
+	width: 150px;
+	height: 26px}
+	
+table.posting_body td.two {
+	padding: 4px 5px 4px 4px}
+	
+table.posting_body td.three {
+	padding: 4px 7px;
+	vertical-align: top;
+	width: 150px}
+
+table.posting_body td.four {
+	padding: 4px 5px 4px 4px;
+	vertical-align: top}
+	
+table.posting_body td.four div {
+	padding-bottom: 3px}
+
+table.posting_body td.five {
+	padding: 4px 7px}
+
+table.posting_body td.six {
+	padding: 4px 7px;
+	height: 130px}
+	
+table.posting_body td.seven {
+	padding: 4px 5px 4px 4px;
+	vertical-align: top}
+
+table.posting_body td.eight {
+	padding: 4px 7px;
+	vertical-align: top;
+	font-weight: bold;
+	width: 135px;
+	text-align: left}
+	
+table.posting_body td.nine {
+	padding: 4px 7px 10px;
+	vertical-align: top;
+	text-align: left}
+
+
+
+table.privmsgs td.one img {
+	width: 19px;
+	height: 18px}
+	
+table.privmsgs td.one {
+	padding: 4px;
+	text-align: center}
+	
+table.privmsgs td.two {
+	padding: 8px 4px;
+	width: 100%}
+	
+table.privmsgs td.three {
+	padding: 4px;
+	text-align: center;
+	white-space: nowrap}
+
+
+
+
+table.profile td.one {
+	padding: 4px 7px;
+	width: 50%;
+	height: 26px}
+	
+table.profile td.two {
+	padding: 4px 5px 4px 4px}
+	
+table.profile td.three {
+	padding: 4px 7px;
+	height: 26px}
+
+
+
+table.profile_view_body tr {
+	height: 18px;
+	text-align: right}
+
+
+
+table.viewtopic td.one {
+	padding: 4px 7px;
+	font-weight: bold}
+
+table.viewtopic td.two {
+	padding: 4px 5px 4px 2px;
+	height: 30px}
+	
+table.viewtopic td.three {
+	padding: 4px 7px;
+	vertical-align: top;
+	width: 150px}
+	
+table.viewtopic td.four {
+	padding: 2px 5px 4px;	
+	vertical-align: top;
+	height: 130px}
+	
+table.viewtopic td.four table {
+	height: 100%;
+	width: 560px}
+	
+table.viewtopic td.five {
+	padding: 4px 7px;
+	height: 18px;
+	line-height: 18px}
+	
+table.viewtopic td.six {
+	padding: 4px 5px}
+
+
+
+table.viewforum td.one img {
+	width: 19px;
+	height: 18px}
+	
+table.viewforum td.one {
+	padding: 4px;
+	text-align: center}
+	
+table.viewforum td.two {
+	padding: 4px;
+	width: 100%}
+	
+table.viewforum td.three {
+	padding: 4px;
+	text-align: center;
+	white-space: nowrap}
+
+
+
+table.forumicons {
+	width: 0}
+	
+table.forumicons td {
+	white-space: nowrap}
+	
+table.forumicons td img {
+	width: 19px;
+	height: 18px}
+
+
+
+table.search td.one {
+	padding: 4px 7px;
+	width: 50%;
+	vertical-align: top}
+	
+table.search td.two {
+	padding: 4px 5px 4px 4px}
+
+table.search td.two div {
+	padding-top: 3px}
+	
+table.search td.three {
+	padding: 4px 7px;
+	text-align: right}
+
+table.search td.four {
+	padding: 4px;
+	width: 150px}
+
+table.search td.five {
+	padding: 8px 4px}
+
+table.search td.six {
+	padding: 4px;
+	vertical-align: top}
+
+table.search td.seven img {
+	width: 19px;
+	height: 18px}
+	
+table.search td.seven {
+	padding: 4px;
+	text-align: center}
+	
+table.search td.eight {
+	padding: 4px}
+	
+table.search td.nine {
+	padding: 4px;
+	text-align: center}
+	
+table.search td.ten {
+	padding: 4px;
+	text-align: center;
+	white-space: nowrap}
+
+
+
+table.simple_header {
+	background-color: #fff;
+	height: 100%}
+	
+table.simple_header td {
+	vertical-align: top}
+
+
+
+table.viewonline td.one {
+	padding: 8px 4px}
+	
+table.viewonline td.two {
+	padding: 8px 4px;
+	text-align: center}
+
+	
+
+h2 {
+	font-size: 11px;
+	line-height: 26px;
+	height: 26px;
+	font-weight: bold;
+	color: #9f0002;
+	margin: 0;
+	padding: 0 4px}
+	
+h3 {
+	font-size: 11px;
+	line-height: 13px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #9f0002;
+	margin: 0}
+
+h2 a, h3 a {
+	text-decoration: none;
+	color: #9f0002}
+	
+h2 a:hover, h3 a:hover, .copyright a:hover {
+	color: #9f0002;
+	text-decoration: underline}
+
+.mainmenu a, tr.lines_1 th a, tr.lines_3 th a, .timezone a, .copyright a, .blacklink a {
+	color: #111;
+	text-decoration: none}
+
+.mainmenu a:hover, tr.lines_1 th a:hover, tr.lines_3 th a:hover, .timezone a:hover, .blacklink a:hover {
+	color: #111;
+	text-decoration: underline}
+
+
+
+.copyright {
+	text-align: center;
+	letter-spacing: -1px}
